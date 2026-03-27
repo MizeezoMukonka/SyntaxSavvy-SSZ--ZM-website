@@ -361,7 +361,9 @@
  
   @media (max-width: 900px) {
     nav { padding: 16px 24px; }
-    .nav-links { display: none; }
+    .nav-links { display:flex;
+                 flex-direction: column;
+                gap: 0px; }
     #home { padding: 100px 24px 0; }
     .hero-grid { grid-template-columns: 1fr; }
     .hero-visual { display: none; }
